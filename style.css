@@ -1,0 +1,32 @@
+.box-set{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: purple;
+}
+#box2{
+    background-color: purple;
+}
+#box3{
+    background-color: purple;
+}
+#ui-slot{
+    display: inline-flex;
+}
+#box-slot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: antiquewhite;
+    flex-direction: column;
+}
+#click-btt{
+    display: inline-block;
+}
+#result-box{
+    text-align: center;
+}
